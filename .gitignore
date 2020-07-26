@@ -1,0 +1,10 @@
+# ignore vendor
+# https://stackoverflow.com/questions/51118691/should-i-add-go-dep-vendor-to-gitignore
+vendor
+# ignore bin so we don't check in compiled binaries
+# need to be careful to only creaste them in the bin directory
+bin
+
+
+#  IDE
+.vscode
