@@ -1,8 +1,9 @@
 package main
 
+import "fmt"
 
 func main() {
-
-	fmt.Println("sdfds, 🤬 ")
+	var s string = "im a string"
+	fmt.Printf("%s, 🤬 ", s)
 
 }

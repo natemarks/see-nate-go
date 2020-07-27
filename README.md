@@ -22,4 +22,4 @@ prerequisites:
    3) Create a main.go to give goimports something to validate
    4) Add a Makefile target to build the binary in bin/
    5) Add a Makefile target to build and run
-
+3) Install Delve and verify debugging

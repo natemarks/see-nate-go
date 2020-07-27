@@ -7,3 +7,6 @@ build:
 
 run: build
 	bin/see-nate-go
+
+delve:
+	go get github.com/go-delve/delve/cmd/dlv
