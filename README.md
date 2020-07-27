@@ -23,3 +23,13 @@ prerequisites:
    4) Add a Makefile target to build the binary in bin/
    5) Add a Makefile target to build and run
 3) Install Delve and verify debugging
+4) Add launch and process input
+   1) Add launch configuration (https://gist.github.com/natemarks/820da6df16e980dbaecddc8d358c6f8f) that runs main in debug mode
+   2) use cmd to accept the "version" subcommand and call that from the launch configuration
+   3) Remove the starter print from main. 
+
+IDEAS: 
+delve debugging next to see static variables
+then  use vscode run configurations to pass in data through arguments
+then use data drive tests for object testing
+then use data driven tests for log output checks

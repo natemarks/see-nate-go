@@ -1,9 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"github.com/natemarks/see-nate-go/cmd"
+)
 
 func main() {
-	var s string = "im a string"
-	fmt.Printf("%s, 🤬 ", s)
+
+	cmd.Execute()
 
 }
