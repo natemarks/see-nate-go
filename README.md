@@ -27,6 +27,9 @@ prerequisites:
    1) Add launch configuration (https://gist.github.com/natemarks/820da6df16e980dbaecddc8d358c6f8f) that runs main in debug mode
    2) use cmd to accept the "version" subcommand and call that from the launch configuration
    3) Remove the starter print from main. 
+5) Add a quick test
+   1) Following this: https://medium.com/@matryer/5-simple-tips-and-tricks-for-writing-unit-tests-in-golang-619653f90742
+   2) keep the test in the same folder but make the package different
 
 IDEAS: 
 delve debugging next to see static variables
