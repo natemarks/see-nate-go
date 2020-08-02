@@ -2,6 +2,12 @@
 
 This is a step-by-step adventure in go.  The purpose is to really etch this stuff in my mind and maybe share something useful.  I'm going to try to do one little new thing in each commit so the commit log should be a good reflection of my of the steps  
 
+There are a couple of related projects:
+
+https://github.com/natemarks/cookiecutter-golang
+
+cookiecutter-golang should let me spin up new project with all of my favorite common settings.
+
 I'll start with  my environment setup for Ubuntu using vscode.  You'll need git installed and you can use this shell script to set up your go workspace based on the best practices as I understood them:
 
 https://gist.github.com/natemarks/df4468516e083c48cb287ab7da2cc2d4
