@@ -3,6 +3,7 @@ package version
 import (
 	"fmt"
 	"runtime"
+	"time"
 )
 
 // GitCommit returns the git commit that was compiled. This will be filled in by the compiler.
@@ -12,7 +13,7 @@ var GitCommit string
 const Version = "0.0.1"
 
 // BuildDate returns the date the binary was built
-var BuildDate = ""
+var BuildDate = time.Now().Format(time.RFC3339)
 
 // GoVersion returns the version of the go runtime used to compile the binary
 var GoVersion = runtime.Version()

@@ -1,9 +1,12 @@
+GIT_COMMIT := $(shell git rev-list -1 HEAD)
+
+
 lint:
 	go get golang.org/x/tools/cmd/goimports
 	goimports -w .
 
-build:
-	go build -o bin
+build: lint
+	go build -ldflags '-X github.com/natemarks/see-nate-go/version.GitCommit=$(GIT_COMMIT)' -o bin 
 
 run: build
 	bin/see-nate-go

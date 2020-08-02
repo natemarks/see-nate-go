@@ -30,6 +30,7 @@ prerequisites:
 5) Add a quick test
    1) Following this: https://medium.com/@matryer/5-simple-tips-and-tricks-for-writing-unit-tests-in-golang-619653f90742
    2) keep the test in the same folder but make the package different
+6) Populate the version info. (GitCommit and Build Time)
 
 IDEAS: 
 delve debugging next to see static variables
